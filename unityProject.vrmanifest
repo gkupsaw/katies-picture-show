@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.katiespictureshowreal.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\VR\\Documents\\katies-picture-show-real\\actions.json",
+      "action_manifest_path": "C:\\Users\\VR\\Documents\\Katies Picture Show\\katies-picture-show-real\\actions.json",
       "strings": {
         "en_us": {
           "name": "katies-picture-show-real [Testing]"
