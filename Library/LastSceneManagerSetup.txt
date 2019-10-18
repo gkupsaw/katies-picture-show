@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Dynamic Suprematism.unity
+- path: Assets/Scenes/Gallery.unity
   isLoaded: 1
   isActive: 1
