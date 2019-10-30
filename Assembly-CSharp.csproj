@@ -44,24 +44,13 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\Scripts\GravitySwitch.cs" />
+  <ItemGroup>     <Compile Include="Assets\Character\AnimatorController.cs" />
+     <Compile Include="Assets\Scripts\GravitySwitch.cs" />
      <Compile Include="Assets\Scripts\old\Gravity.cs" />
      <Compile Include="Assets\Scripts\old\GravityDown.cs" />
      <Compile Include="Assets\Scripts\old\GravityOff.cs" />
      <Compile Include="Assets\Scripts\old\GravityUp.cs" />
      <Compile Include="Assets\Scripts\TeleportToPainting.cs" />
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -71,11 +60,17 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-weaver.Editor">
  <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
@@ -97,6 +92,12 @@
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
  <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
