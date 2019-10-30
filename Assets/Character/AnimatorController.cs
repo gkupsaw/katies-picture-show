@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
+using UnityEngine.AI;
 
 public class AnimatorController : MonoBehaviour {
     
      public Animator animator;
+     public NavMeshAgent nav;
     
     // Use this for initialization
     void Start () {
@@ -15,13 +17,21 @@ public class AnimatorController : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         bool walk = Input.GetButtonDown("Fire1");
-        
-
-        if (Input.GetKey(KeyCode.E))
-       {
-        walk=true;
+        bool turn = Input.GetButtonDown("Fire1");
+        if(nav.angularSpeed>1){
+            walk=false;
+            //turn=true;
+        }
+        if(nav.remainingDistance>1){
+            walk=true;
+            //turn=false;
+            Debug.Log("massss");
+        }
+            animator.SetBool("walk", walk);
+            animator.SetBool("turn", turn);
+        if (Input.GetKey(KeyCode.E)){
+            walk=true;
        }
-       animator.SetBool("walk", walk);
     }
 
     void OnCollisionEnter(Collision col) {
