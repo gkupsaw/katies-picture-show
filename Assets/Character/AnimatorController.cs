@@ -22,7 +22,7 @@ public class AnimatorController : MonoBehaviour {
             walk=false;
             //turn=true;
         }
-        if(nav.remainingDistance>1){
+        if(nav.remainingDistance>1.5){
             walk=true;
             //turn=false;
             Debug.Log("massss");
