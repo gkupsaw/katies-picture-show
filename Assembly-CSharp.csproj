@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>     <Compile Include="Assets\Character\AnimatorController.cs" />
      <Compile Include="Assets\Scripts\GravitySwitch.cs" />
+     <Compile Include="Assets\Scripts\MoveAllPoints.cs" />
      <Compile Include="Assets\Scripts\MoveTo.cs" />
      <Compile Include="Assets\Scripts\old\Gravity.cs" />
      <Compile Include="Assets\Scripts\old\GravityDown.cs" />

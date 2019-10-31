@@ -19,19 +19,17 @@ public class AnimatorController : MonoBehaviour {
         bool walk = Input.GetButtonDown("Fire1");
         bool turn = Input.GetButtonDown("Fire1");
         if(nav.angularSpeed>1){
+            //Debug.Log(nav.angularSpeed);
             walk=false;
-            //turn=true;
+            //turn=true;            
         }
-        if(nav.remainingDistance>1.5){
+        if(nav.remainingDistance>0.5){
+            //Debug.Log("massss");
             walk=true;
             //turn=false;
-            Debug.Log("massss");
         }
             animator.SetBool("walk", walk);
             animator.SetBool("turn", turn);
-        if (Input.GetKey(KeyCode.E)){
-            walk=true;
-       }
     }
 
     void OnCollisionEnter(Collision col) {
