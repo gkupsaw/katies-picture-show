@@ -1,70 +1,193 @@
 fileFormatVersion: 2
 guid: 4ed07743812cf0346b8dfa1726f28ad1
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Default
-    100002: Front
-    100004: Object_1
-    100006: Object_2
-    100008: Object_3
-    100010: Object_4
-    100012: Object_6
-    100014: Object_7
-    100016: Object_8
-    100018: Object_9
-    100020: Perspective
-    100022: Right
-    100024: //RootNode
-    100026: Top
-    400000: Default
-    400002: Front
-    400004: Object_1
-    400006: Object_2
-    400008: Object_3
-    400010: Object_4
-    400012: Object_6
-    400014: Object_7
-    400016: Object_8
-    400018: Object_9
-    400020: Perspective
-    400022: Right
-    400024: //RootNode
-    400026: Top
-    2000000: Front
-    2000002: Perspective
-    2000004: Right
-    2000006: Top
-    2100000: hilma-af-klint-group-ix-suw-no-17-the-swan-no-17-1915-trivium-art-history
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Default
+  - first:
+      1: 100002
+    second: Front
+  - first:
+      1: 100004
+    second: Object_1
+  - first:
+      1: 100006
+    second: Object_2
+  - first:
+      1: 100008
+    second: Object_3
+  - first:
+      1: 100010
+    second: Object_4
+  - first:
+      1: 100012
+    second: Object_6
+  - first:
+      1: 100014
+    second: Object_7
+  - first:
+      1: 100016
+    second: Object_8
+  - first:
+      1: 100018
+    second: Object_9
+  - first:
+      1: 100020
+    second: Perspective
+  - first:
+      1: 100022
+    second: Right
+  - first:
+      1: 100024
+    second: //RootNode
+  - first:
+      1: 100026
+    second: Top
+  - first:
+      4: 400000
+    second: Default
+  - first:
+      4: 400002
+    second: Front
+  - first:
+      4: 400004
+    second: Object_1
+  - first:
+      4: 400006
+    second: Object_2
+  - first:
+      4: 400008
+    second: Object_3
+  - first:
+      4: 400010
+    second: Object_4
+  - first:
+      4: 400012
+    second: Object_6
+  - first:
+      4: 400014
+    second: Object_7
+  - first:
+      4: 400016
+    second: Object_8
+  - first:
+      4: 400018
+    second: Object_9
+  - first:
+      4: 400020
+    second: Perspective
+  - first:
+      4: 400022
+    second: Right
+  - first:
+      4: 400024
+    second: //RootNode
+  - first:
+      4: 400026
+    second: Top
+  - first:
+      20: 2000000
+    second: Front
+  - first:
+      20: 2000002
+    second: Perspective
+  - first:
+      20: 2000004
+    second: Right
+  - first:
+      20: 2000006
+    second: Top
+  - first:
+      21: 2100000
+    second: hilma-af-klint-group-ix-suw-no-17-the-swan-no-17-1915-trivium-art-history
       (1)
-    2100002: Material_5
-    2100004: hilma-af-klint-group-ix-suw-no-17-the-swan-no-17-1915-trivium-art-history
+  - first:
+      21: 2100002
+    second: Material_5
+  - first:
+      21: 2100004
+    second: hilma-af-klint-group-ix-suw-no-17-the-swan-no-17-1915-trivium-art-history
       (4)
-    2300000: Object_1
-    2300002: Object_2
-    2300004: Object_3
-    2300006: Object_4
-    2300008: Object_6
-    2300010: Object_7
-    2300012: Object_8
-    2300014: Object_9
-    3300000: Object_1
-    3300002: Object_2
-    3300004: Object_3
-    3300006: Object_4
-    3300008: Object_6
-    3300010: Object_7
-    3300012: Object_8
-    3300014: Object_9
-    4300000: Object_1
-    4300002: Object_2
-    4300004: Object_3
-    4300006: Object_4
-    4300008: Object_6
-    4300010: Object_7
-    4300012: Object_8
-    4300014: Object_9
-  externalObjects: {}
+  - first:
+      23: 2300000
+    second: Object_1
+  - first:
+      23: 2300002
+    second: Object_2
+  - first:
+      23: 2300004
+    second: Object_3
+  - first:
+      23: 2300006
+    second: Object_4
+  - first:
+      23: 2300008
+    second: Object_6
+  - first:
+      23: 2300010
+    second: Object_7
+  - first:
+      23: 2300012
+    second: Object_8
+  - first:
+      23: 2300014
+    second: Object_9
+  - first:
+      33: 3300000
+    second: Object_1
+  - first:
+      33: 3300002
+    second: Object_2
+  - first:
+      33: 3300004
+    second: Object_3
+  - first:
+      33: 3300006
+    second: Object_4
+  - first:
+      33: 3300008
+    second: Object_6
+  - first:
+      33: 3300010
+    second: Object_7
+  - first:
+      33: 3300012
+    second: Object_8
+  - first:
+      33: 3300014
+    second: Object_9
+  - first:
+      43: 4300000
+    second: Object_1
+  - first:
+      43: 4300002
+    second: Object_2
+  - first:
+      43: 4300004
+    second: Object_3
+  - first:
+      43: 4300006
+    second: Object_4
+  - first:
+      43: 4300008
+    second: Object_6
+  - first:
+      43: 4300010
+    second: Object_7
+  - first:
+      43: 4300012
+    second: Object_8
+  - first:
+      43: 4300014
+    second: Object_9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_5
+    second: {fileID: 2100000, guid: 3221db5f995a4492e8e6f415ec24049a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -99,6 +222,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -106,18 +230,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -126,10 +251,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -139,6 +265,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
