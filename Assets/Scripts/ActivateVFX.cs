@@ -29,7 +29,7 @@ public class ActivateVFX : MonoBehaviour
         if (n.gameObject.tag == "MainCamera")
         {
             //Initiate.Fade(scene,Color.black, 1.0f);
-            SceneManager.LoadSceneAsync("Dynamic Suprematism");
+            SceneManager.LoadSceneAsync(scene);
             VR.transform.position = new Vector3(3.5f,0,0);
             Valve.VR.OpenVR.System.ResetSeatedZeroPose();
             
