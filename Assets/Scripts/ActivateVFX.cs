@@ -24,7 +24,7 @@ public class ActivateVFX : MonoBehaviour
            VR.transform.position = new Vector3(3.5f,0,0);
        }
     }
-     void OnTriggerEnter(Collider n)
+    void OnTriggerEnter(Collider n)
     {
         if (n.gameObject.tag == "MainCamera")
         {
