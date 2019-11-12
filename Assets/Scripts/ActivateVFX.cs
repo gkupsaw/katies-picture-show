@@ -8,6 +8,9 @@ public class ActivateVFX : MonoBehaviour
     // Start is called before the first frame update
     public string scene;
     public GameObject VR;
+    public Animator anim;
+    public Collider picture;
+    public GameObject black_hole;
     void Start()
     {
         
@@ -23,17 +26,23 @@ public class ActivateVFX : MonoBehaviour
            SceneManager.LoadSceneAsync("Dynamic Suprematism");
            VR.transform.position = new Vector3(3.5f,0,0);
        }
+       if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f){
+           Debug.Log("ffffffffffffffffffffffffff");
+           Valve.VR.OpenVR.System.ResetSeatedZeroPose();
+           SceneManager.LoadSceneAsync(scene);
+           //VR.transform.position = new Vector3(3.5f,0,0);
+       }
     }
     void OnTriggerEnter(Collider n)
     {
         if (n.gameObject.tag == "MainCamera")
         {
+            black_hole.SetActive(true);
             //Initiate.Fade(scene,Color.black, 1.0f);
-            SceneManager.LoadSceneAsync(scene);
-            VR.transform.position = new Vector3(3.5f,0,0);
-            Valve.VR.OpenVR.System.ResetSeatedZeroPose();
-            
-            Debug.Log("Inside");
+            // SceneManager.LoadSceneAsync(scene);
+            // VR.transform.position = new Vector3(3.5f,0,0);
+            // Valve.VR.OpenVR.System.ResetSeatedZeroPose();
+            // Debug.Log("Inside");
             //player.transform.parent = transform;
         }
     }
