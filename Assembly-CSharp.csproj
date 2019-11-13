@@ -49,6 +49,7 @@
      <Compile Include="Assets\Character\AnimatorController.cs" />
      <Compile Include="Assets\Materials\BlurShader.cs" />
      <Compile Include="Assets\Scripts\ActivateVFX.cs" />
+     <Compile Include="Assets\Scripts\DontMoveWalls.cs" />
      <Compile Include="Assets\Scripts\GravitySwitch.cs" />
      <Compile Include="Assets\Scripts\MoveAllPoints.cs" />
      <Compile Include="Assets\Scripts\MoveTo.cs" />

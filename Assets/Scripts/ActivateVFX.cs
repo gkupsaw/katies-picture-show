@@ -35,9 +35,10 @@ public class ActivateVFX : MonoBehaviour
     }
     void OnTriggerEnter(Collider n)
     {
-        if (n.gameObject.tag == "MainCamera")
+        if (n.gameObject.tag == "Hand")
         {
             black_hole.SetActive(true);
+            Debug.Log("ffffffffffffffffffffffffff");
             //Initiate.Fade(scene,Color.black, 1.0f);
             // SceneManager.LoadSceneAsync(scene);
             // VR.transform.position = new Vector3(3.5f,0,0);

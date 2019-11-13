@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4057349755877435953}
   - component: {fileID: 4057349755877435954}
   m_Layer: 0
-  m_Name: Mondrian Boogie Woogie (1)
+  m_Name: Picture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,11 +42,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4057349755877435967}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.66817284, y: 2.015976, z: 1.9470215}
-  m_Center: {x: 21.044086, y: 1.007988, z: 22.626488}
+  m_Size: {x: 0.19137573, y: 0.9547155, z: 1.0173931}
+  m_Center: {x: 20.95932, y: 1.6610302, z: 22.796608}
 --- !u!114 &4057349755877435954
 MonoBehaviour:
   m_ObjectHideFlags: 0
