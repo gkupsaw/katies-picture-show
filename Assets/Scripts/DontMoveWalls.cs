@@ -21,8 +21,8 @@ public class DontMoveWalls : MonoBehaviour
     void OnTriggerEnter(Collider col){
         if(col.tag == "Wall"){
             Debug.Log("collision in walls");
-            //cam.targetDisplay = 1;
-            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, 0);
+            cam.targetDisplay = 1;
+            //transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, 0);
             // cam.enabled = false;
             // cam2.enabled = true;
         }
