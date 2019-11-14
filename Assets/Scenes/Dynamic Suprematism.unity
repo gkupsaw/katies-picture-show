@@ -2470,7 +2470,7 @@ PrefabInstance:
     - target: {fileID: 4057349755877435954, guid: 39d5aed6911a470efa837539546c7fce,
         type: 3}
       propertyPath: scene
-      value: VFX
+      value: Gallery
       objectReference: {fileID: 0}
     - target: {fileID: 4057349756391294883, guid: 39d5aed6911a470efa837539546c7fce,
         type: 3}

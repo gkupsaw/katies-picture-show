@@ -28,7 +28,7 @@ public class ActivateVFX : MonoBehaviour
        }
        if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f){
            Debug.Log("ffffffffffffffffffffffffff");
-           Valve.VR.OpenVR.System.ResetSeatedZeroPose();
+           //Valve.VR.OpenVR.System.ResetSeatedZeroPose();
            SceneManager.LoadSceneAsync(scene);
            //VR.transform.position = new Vector3(3.5f,0,0);
        }
