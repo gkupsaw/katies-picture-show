@@ -24,13 +24,13 @@ using UnityEngine.AI;
          bool walk = Input.GetButtonDown("Fire1");
          bool turn = Input.GetButtonDown("Fire1");
 
+         
          timeLeft -= Time.deltaTime;
          Debug.Log(timeLeft);
          if(timeLeft<=0){
             //turn=true;
-            timeLeft = 10.0f;  
+            timeLeft = 10.0f;
          
-
             //transform.LookAt(goal);
             if(Vector3.Distance(waypoints[current].transform.position, transform.position) < WPradius)
             {

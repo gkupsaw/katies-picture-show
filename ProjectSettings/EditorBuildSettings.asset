@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Gallery.unity
+    guid: d94b43240d31aa5d89bc2917823fc26d
+  - enabled: 1
+    path: Assets/Scenes/VFX.unity
+    guid: 46e1789c240bf684eafbfc335f2d29ee
+  - enabled: 1
+    path: Assets/Scenes/Dynamic Suprematism.unity
+    guid: 45de85d5c6949dd4e8e922dff498d554
   m_configObjects: {}
