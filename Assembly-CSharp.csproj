@@ -44,7 +44,12 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\Character\AnimatorController.cs" />
+  <ItemGroup>     <Compile Include="Assets\Black Hole\Script\Demo.cs" />
+     <Compile Include="Assets\Black Hole\Script\FreeCamera.cs" />
+     <Compile Include="Assets\Character\AnimatorController.cs" />
+     <Compile Include="Assets\Materials\BlurShader.cs" />
+     <Compile Include="Assets\Scripts\ActivateVFX.cs" />
+     <Compile Include="Assets\Scripts\DontMoveWalls.cs" />
      <Compile Include="Assets\Scripts\GravitySwitch.cs" />
      <Compile Include="Assets\Scripts\MoveAllPoints.cs" />
      <Compile Include="Assets\Scripts\MoveTo.cs" />
@@ -53,6 +58,13 @@
      <Compile Include="Assets\Scripts\old\GravityOff.cs" />
      <Compile Include="Assets\Scripts\old\GravityUp.cs" />
      <Compile Include="Assets\Scripts\TeleportToPainting.cs" />
+     <Compile Include="Assets\Simple Scene Fade Load System\Demo (You don&apos;t have to import this folder)\DemoScript.cs" />
+     <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Fader.cs" />
+     <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Initiate.cs" />
+     <None Include="Assets\Shader\NewSurfaceShader.shader" />
+     <None Include="Assets\Black Hole\ReadMe.txt" />
+     <None Include="Assets\Simple Scene Fade Load System\ReadMeFirst.txt" />
+     <None Include="Assets\Black Hole\Shader\Black Hole.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/enrique/Documents/UnityProjects/katies-picture-show/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
