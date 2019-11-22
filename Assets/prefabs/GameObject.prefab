@@ -114,11 +114,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2529514102885628207}
     m_Modifications:
-    - target: {fileID: 5728429790714772779, guid: 078cada0331e9d38d94519fcd8985def,
-        type: 3}
-      propertyPath: m_Name
-      value: BlackHole_Intro_00000
-      objectReference: {fileID: 0}
     - target: {fileID: 5728429790714772780, guid: 078cada0331e9d38d94519fcd8985def,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -173,6 +168,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728429790714772779, guid: 078cada0331e9d38d94519fcd8985def,
+        type: 3}
+      propertyPath: m_Name
+      value: BlackHole_Intro_00000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 078cada0331e9d38d94519fcd8985def, type: 3}
