@@ -9,13 +9,15 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: TeleportAreaVisible
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: RECEIVE_SHADOWS S_SPECULAR_NONE S_UNLIT _EMISSION _GLOSSYREFLECTIONS_OFF
+  m_ShaderKeywords: RECEIVE_SHADOWS S_SPECULAR_NONE S_UNLIT _ALPHAPREMULTIPLY_ON
+    _EMISSION _GLOSSYREFLECTIONS_OFF
   m_LightmapFlags: 1
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap:
     OriginalShader: Standard
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -82,7 +84,7 @@ Material:
     - _Cutoff: 0.5
     - _Darken: 0.641
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _Emission: 0.01
     - _EmissionScaleUI: 0
     - _FogMultiplier: 1
@@ -90,7 +92,7 @@ Material:
     - _Glossiness: 1
     - _GlossyReflections: 0
     - _Metallic: 1
-    - _Mode: 0
+    - _Mode: 3
     - _OcclusionStrength: 1
     - _OcclusionStrengthDirectDiffuse: 1
     - _OcclusionStrengthDirectSpecular: 1
@@ -108,7 +110,7 @@ Material:
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
     - _UVSec: 0
-    - _ZWrite: 1
+    - _ZWrite: 0
     - g_bEnableMetallic: 0
     - g_bReceiveShadows: 1
     - g_bUnlit: 1
@@ -119,7 +121,7 @@ Material:
     - g_flReflectanceMin: 0
     - g_flReflectanceScale: 1
     m_Colors:
-    - _Color: {r: 0.6509804, g: 0, b: 0, a: 0.591}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.591}
     - _EmissionColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.5849056, g: 0.19588822, b: 0.20216268, a: 1}
