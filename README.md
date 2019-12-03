@@ -3,7 +3,7 @@
 ## Installation
 Within Terminal:
 
-- cd
+- `cd`
 - `git clone https://www.github.com/gkupsaw/katies-picture-show`
 
 Open working directory in Unity
