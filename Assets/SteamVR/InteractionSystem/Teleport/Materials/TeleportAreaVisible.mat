@@ -121,10 +121,10 @@ Material:
     - g_flReflectanceMin: 0
     - g_flReflectanceScale: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0.591}
+    - _Color: {r: 0.57254905, g: 0.19215688, b: 0.21568629, a: 0.591}
     - _EmissionColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
-    - _SpecColor: {r: 0.5849056, g: 0.19588822, b: 0.20216268, a: 1}
+    - _SpecColor: {r: 0.5764706, g: 0.19215688, b: 0.21176472, a: 1}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
     - _TintColor: {r: 0.22033198, g: 0.41133347, b: 0.516, a: 0.453}
     - g_vWorldAlignedNormalTangentU: {r: -1, g: 0, b: 0, a: 0}

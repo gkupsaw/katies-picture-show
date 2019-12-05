@@ -1,8 +1,156 @@
 fileFormatVersion: 2
 guid: 5d32c80073468495c86567eaafdec29f
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Front
+    100002: hand
+    100004: Object_1
+    100006: Object_10
+    100008: Object_11
+    100010: Object_12
+    100012: Object_13
+    100014: Object_14
+    100016: Object_15
+    100018: Object_16
+    100020: Object_17
+    100022: Object_18
+    100024: Object_19
+    100026: Object_2
+    100028: Object_20
+    100030: Object_21
+    100032: Object_22
+    100034: Object_23
+    100036: Object_24
+    100038: Object_25
+    100040: Object_3
+    100042: Object_4
+    100044: Object_5
+    100046: Object_6
+    100048: Object_7
+    100050: Object_8
+    100052: Object_9
+    100054: Perspective
+    100056: Right
+    100058: //RootNode
+    100060: Top
+    400000: Front
+    400002: hand
+    400004: Object_1
+    400006: Object_10
+    400008: Object_11
+    400010: Object_12
+    400012: Object_13
+    400014: Object_14
+    400016: Object_15
+    400018: Object_16
+    400020: Object_17
+    400022: Object_18
+    400024: Object_19
+    400026: Object_2
+    400028: Object_20
+    400030: Object_21
+    400032: Object_22
+    400034: Object_23
+    400036: Object_24
+    400038: Object_25
+    400040: Object_3
+    400042: Object_4
+    400044: Object_5
+    400046: Object_6
+    400048: Object_7
+    400050: Object_8
+    400052: Object_9
+    400054: Perspective
+    400056: Right
+    400058: //RootNode
+    400060: Top
+    2000000: Front
+    2000002: Perspective
+    2000004: Right
+    2000006: Top
+    2100000: wood
+    2100002: wood (1)
+    2100004: wood (2)
+    2100006: wood (5)
+    2100008: wood (7)
+    2100010: wood (6)
+    2100012: wood (4)
+    2300000: Object_1
+    2300002: Object_10
+    2300004: Object_11
+    2300006: Object_12
+    2300008: Object_13
+    2300010: Object_14
+    2300012: Object_15
+    2300014: Object_16
+    2300016: Object_17
+    2300018: Object_18
+    2300020: Object_19
+    2300022: Object_2
+    2300024: Object_20
+    2300026: Object_21
+    2300028: Object_22
+    2300030: Object_23
+    2300032: Object_24
+    2300034: Object_25
+    2300036: Object_3
+    2300038: Object_4
+    2300040: Object_5
+    2300042: Object_6
+    2300044: Object_7
+    2300046: Object_8
+    2300048: Object_9
+    3300000: Object_1
+    3300002: Object_10
+    3300004: Object_11
+    3300006: Object_12
+    3300008: Object_13
+    3300010: Object_14
+    3300012: Object_15
+    3300014: Object_16
+    3300016: Object_17
+    3300018: Object_18
+    3300020: Object_19
+    3300022: Object_2
+    3300024: Object_20
+    3300026: Object_21
+    3300028: Object_22
+    3300030: Object_23
+    3300032: Object_24
+    3300034: Object_25
+    3300036: Object_3
+    3300038: Object_4
+    3300040: Object_5
+    3300042: Object_6
+    3300044: Object_7
+    3300046: Object_8
+    3300048: Object_9
+    4300000: Object_25
+    4300002: Object_24
+    4300004: Object_23
+    4300006: Object_22
+    4300008: Object_21
+    4300010: Object_20
+    4300012: Object_19
+    4300014: Object_18
+    4300016: Object_17
+    4300018: Object_16
+    4300020: Object_15
+    4300022: Object_14
+    4300024: Object_13
+    4300026: Object_12
+    4300028: Object_11
+    4300030: Object_10
+    4300032: Object_9
+    4300034: Object_8
+    4300036: Object_7
+    4300038: Object_6
+    4300040: Object_5
+    4300042: Object_4
+    4300044: Object_3
+    4300046: Object_2
+    4300048: Object_1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -38,7 +186,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -46,19 +193,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -67,11 +213,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -81,7 +226,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

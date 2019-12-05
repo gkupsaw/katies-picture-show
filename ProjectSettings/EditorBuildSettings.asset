@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dynamic Suprematism.unity
     guid: 45de85d5c6949dd4e8e922dff498d554
+  - enabled: 1
+    path: Assets/Scenes/vungoo.unity
+    guid: 372a09a54319e4470a271c0ca35d0f36
+  - enabled: 1
+    path: Assets/Scenes/jungle.unity
+    guid: 276ff36a0372b4d9c8120178eaa8c7b1
+  - enabled: 1
+    path: Assets/Scenes/scream.unity
+    guid: faac9405db5304bedba5171f96b91f75
+  - enabled: 1
+    path: Assets/Scenes/Tube Dude.unity
+    guid: 8684f409f824e3b4796972e01805a3f9
   m_configObjects: {}

@@ -20,14 +20,15 @@ public class ActivateVFX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-       {
-           Valve.VR.OpenVR.System.ResetSeatedZeroPose();
-           SceneManager.LoadSceneAsync("Dynamic Suprematism");
-            VR.transform.position = new Vector3(3.5f,0,0);
-       }
-       if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f){
-           Debug.Log("ffffffffffffffffffffffffff");
+        //if (Input.GetKeyDown(KeyCode.E))
+     //  {
+     //      Valve.VR.OpenVR.System.ResetSeatedZeroPose();
+   //         SceneManager.LoadSceneAsync("Dynamic Suprematism");
+      //      Debug.Log("E pressed");
+ //           VR.transform.position = new Vector3(3.5f,0,0);
+    //   }
+       if(black_hole.activeInHierarchy && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f){
+           Debug.Log("loading scene");
            //Valve.VR.OpenVR.System.ResetSeatedZeroPose();
            SceneManager.LoadSceneAsync(scene);
            //VR.transform.position = new Vector3(3.5f,0,0);
@@ -38,7 +39,7 @@ public class ActivateVFX : MonoBehaviour
         if (n.gameObject.tag == "Hand")
         {
             black_hole.SetActive(true);
-            Debug.Log("ffffffffffffffffffffffffff");
+            Debug.Log("got hand");
             //Initiate.Fade(scene,Color.black, 1.0f);
             // SceneManager.LoadSceneAsync(scene);
             // VR.transform.position = new Vector3(3.5f,0,0);
